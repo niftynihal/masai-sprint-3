@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID19</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-center bg-red p-5">Coronavirus Latest Updates</h1>
+    <div id="main" class="text-center">
+        <h3 class="text-center">GLOBAL DATA</h3>
+        <table>
+            <tr>
+            <th>New Confirmed</th>
+            <th>New Deaths</th>
+            <th>New Recovered</th>
+            <th>Total Confirmed</th>
+            <th>Total Deaths</th>
+            <th>Total Recovered</th>
+            </tr> 
+            <tr>
+                <td id="nc"></td>
+                <td id="nd"></td>
+                <td id="nr"></td>
+                <td id="tc"></td>
+                <td id="td"></td>
+                <td id="tr"></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <label for="pet-select">Choose a Country:</label>
+        <select name="Country" id="country-select">
+            <option value="">--Please choose a Country--</option>
+            <option value="in">India</option>
+            <option value="pk">Pakistan</option>
+            <option value="sa">South Africa</option>
+            <option value="fr">France</option>
+            <option value="ch">China</option>
+            <option value="sp">Spain</option>
+        </select>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
